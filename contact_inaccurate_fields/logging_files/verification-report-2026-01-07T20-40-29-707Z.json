@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-01-07T20:40:29.293Z",
+  "script_verified": "map-contact-fields.js",
+  "status": "FAILED",
+  "tests": [
+    {
+      "name": "File Existence",
+      "status": "FAILED",
+      "issues": [
+        "Output file not found: /Users/zeke/Desktop/projects/bwc_orig_scripts/contact_inaccurate_fields/input_files/contacts_with_updated_fields.xlsx"
+      ]
+    }
+  ],
+  "summary": {
+    "totalTests": 1,
+    "passedTests": 0,
+    "failedTests": 1,
+    "warnings": 0
+  },
+  "issues": [
+    "Output file not found: /Users/zeke/Desktop/projects/bwc_orig_scripts/contact_inaccurate_fields/input_files/contacts_with_updated_fields.xlsx",
+    "Critical error: ENOENT: no such file or directory, open '/Users/zeke/Desktop/projects/bwc_orig_scripts/contact_inaccurate_fields/input_files/contacts_with_updated_fields.xlsx'"
+  ],
+  "warnings": [],
+  "details": {}
+}

@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-01-07T20:40:48.137Z",
+  "script_verified": "map-contact-fields.js",
+  "status": "PASSED",
+  "tests": [
+    {
+      "name": "File Existence",
+      "status": "PASSED",
+      "issues": []
+    },
+    {
+      "name": "Email Matching",
+      "status": "PASSED",
+      "issues": [],
+      "details": {
+        "totalOutputEmails": 9240,
+        "matchedEmails": 9240,
+        "unmatchedEmails": []
+      }
+    },
+    {
+      "name": "Row Selection (Latest Date)",
+      "status": "PASSED",
+      "issues": [],
+      "details": {
+        "emailsWithMultipleIds": 398,
+        "correctSelections": 398,
+        "incorrectSelections": []
+      }
+    },
+    {
+      "name": "Field Mapping Accuracy",
+      "status": "PASSED",
+      "issues": [],
+      "details": {
+        "totalFieldsChecked": 55440,
+        "correctFields": 55440,
+        "incorrectFields": []
+      }
+    },
+    {
+      "name": "Data Completeness",
+      "status": "PASSED",
+      "issues": [],
+      "details": {
+        "missingColumns": [],
+        "missingRequiredFields": []
+      }
+    },
+    {
+      "name": "Date Formatting",
+      "status": "PASSED",
+      "issues": [],
+      "details": {
+        "dateFieldsChecked": 18480,
+        "correctlyFormatted": 18480,
+        "incorrectlyFormatted": []
+      }
+    }
+  ],
+  "summary": {
+    "totalTests": 6,
+    "passedTests": 6,
+    "failedTests": 0,
+    "warnings": 0
+  },
+  "issues": [],
+  "warnings": [],
+  "details": {}
+}
